@@ -1,6 +1,7 @@
 # System Design for software 
 
 ## 1 Andrfoid own Api client using okhttp abastraction layer 
+```
 flowchart LR
     A[Client Library] -->|Uses| B[HTTP Client]
     B --> C[HttpURLConnection/OkHttp]
@@ -16,3 +17,5 @@ flowchart LR
     H --> L[Logging Interceptor]
     H --> M[Retry Interceptor]
 
+```
+Ui path 
