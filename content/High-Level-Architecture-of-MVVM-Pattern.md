@@ -13,4 +13,14 @@ To design an Android mobile app for making API calls using the MVVM (Model-View-
   The **Model layer** will handle all API interactions and data parsing. It includes:
    - The API service (implemented using Retrofit with OkHttp as the underlying client).
    - The data classes for requests and responses.
+## Example of API Service 
+```
+interface ApiService {
+    @GET("users")
+    suspend fun getUsers(): Response<List<UserResponse>>
+
+    @POST("login")
+    suspend fun login(@Body request: LoginRequest): Response<LoginResponse>
+}
+```
 
