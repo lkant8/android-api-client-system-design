@@ -1,7 +1,7 @@
 # System Design for software 
 
 ## 1 Andrfoid own Api client using okhttp abastraction layer 
-```
+```mermaid
 flowchart LR
     A[Client Library] -->|Uses| B[HTTP Client]
     B --> C[HttpURLConnection/OkHttp]
@@ -16,7 +16,4 @@ flowchart LR
     G --> K[Timeouts]
     H --> L[Logging Interceptor]
     H --> M[Retry Interceptor]
-
 ```
-Ui path 
-<img src="https://raw.githubusercontent.com/lkant8/android-api-client-system-design/main/assets/System Design for Android API Client.drawio.png" width="360" height="640">
