@@ -19,3 +19,4 @@ flowchart LR
 
 ```
 Ui path 
+<img src="https://raw.githubusercontent.com/lkant8/android-api-client-system-design/main/assets/System Design for Android API Client.drawio.png" width="360" height="640">
