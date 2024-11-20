@@ -1,9 +1,52 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.4">
   <diagram name="Page-1" id="spHR88g5_WbAfHnAxxDu">
-    <mxGraphModel>
+    <mxGraphModel dx="1602" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="D7GScs7GDipE1Z8fgMxY-1" value="UserScreen Jetpack Compose" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="204" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="D7GScs7GDipE1Z8fgMxY-2" value="UserViewModel StateFlow" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="274" y="29" width="247" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="D7GScs7GDipE1Z8fgMxY-3" value="GetUserUseCase" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="571" y="29" width="185" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="D7GScs7GDipE1Z8fgMxY-4" value="UserRepository" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="807" y="29" width="170" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="D7GScs7GDipE1Z8fgMxY-5" value="ApiClient Ktor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1027" y="29" width="158" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="D7GScs7GDipE1Z8fgMxY-6" value="API Response" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1362" y="29" width="162" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="D7GScs7GDipE1Z8fgMxY-7" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="D7GScs7GDipE1Z8fgMxY-1" target="D7GScs7GDipE1Z8fgMxY-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D7GScs7GDipE1Z8fgMxY-8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="D7GScs7GDipE1Z8fgMxY-2" target="D7GScs7GDipE1Z8fgMxY-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D7GScs7GDipE1Z8fgMxY-9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="D7GScs7GDipE1Z8fgMxY-3" target="D7GScs7GDipE1Z8fgMxY-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D7GScs7GDipE1Z8fgMxY-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="D7GScs7GDipE1Z8fgMxY-4" target="D7GScs7GDipE1Z8fgMxY-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D7GScs7GDipE1Z8fgMxY-11" value="Network Request" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="D7GScs7GDipE1Z8fgMxY-5" target="D7GScs7GDipE1Z8fgMxY-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
